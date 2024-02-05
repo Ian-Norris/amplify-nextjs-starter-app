@@ -1,0 +1,39 @@
+/* Navbar.module.css */
+.navbar {
+  background-color: transparent;
+  color: #333;
+  padding: 1rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navLinks li {
+  margin-right: 2rem;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7); 
+}

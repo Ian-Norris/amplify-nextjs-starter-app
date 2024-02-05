@@ -7,6 +7,14 @@
   min-height: 100vh;
 }
 
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem; 
+  
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -77,7 +85,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
   gap: 4rem;
 }
 
